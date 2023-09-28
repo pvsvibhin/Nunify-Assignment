@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.page-navbar {
+    background-color: #ffffff;
+    font-family: "Roboto";
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 17%
+}
+
+.logo {
+    width: 141.63px;
+    height: 50px;
+}
+
+.section-2 {
+    /*margin-left: 20%;*/
+
+}
+
+.main-heading {
+    color: #3E2678;
+    font-family: "Inter";
+    font-size: 67.77px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    width: 657px;
+    height: 162.451px;
+    flex-shrink: 0;
+}
+
+.para {
+    color: #6C6A72;
+    font-family: Inter;
+    font-size: 25.89px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    width: 522px;
+    height: 36.1px;
+    flex-shrink: 0;
+}
+
+.list {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    width: 200px;
+    line-height: 0px;
+
+    flex-shrink: 0;
+}
+
+.list-container {
+    margin-top: 20px;
+    display: flex;
+
+}
+
+.each-list {
+    display: flex;
+    flex-direction: row;
+
+
+
+}
+
+.tick-logo {
+    align-self: center;
+    margin-right: 10px;
+}
+
+.list-text {
+    color: #86838B;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.price-container {
+    width: 450px;
+    height: 364.552px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 0.5px solid #3E2678;
+    background: #FFF;
+    box-shadow: 0px 4px 14px 5px rgba(0, 0, 0, 0.15);
+
+    margin-top: 100px;
+}
+
+.section-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.price-container-top-section {
+    height: 79px;
+    border-radius: 20px 20px 0px 0px;
+    background: #3E2678;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.logins-text {
+    color: #FBFBFC;
+    font-family: "Inter";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.currency-container {
+    display: flex;
+
+
+
+}
+
+.arrow-icon {
+    align-self: center;
+    margin-left: 5px;
+}
+
+.price-text {
+    color: #3E2678;
+    font-family: "Inter";
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 700;
+    padding-left: 30px;
+}
+
+.event-text {
+    color: #3E2678;
+    text-align: center;
+    font-family: Inter;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.try-for-free-button {
+    width: 209px;
+    height: 48px;
+    color: #45E6F7;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 8px;
+    border: 2px solid #432B7B;
+    background: #432B7B;
+    margin-left: 20px;
+}
+
+.whats-included-text-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+.whats-included-text {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.down-arrow-icon {
+    width: 29px;
+    height: 29px;
+    align-self: center;
+    margin-left: 10px;
+}
+
+.bar-container {
+    display: flex;
+    /*margin-left: 20%;*/
+    margin-top: 30px;
+    flex-shrink: 1;
+    justify-content: center;
+}
+
+.bar {
+
+    width: 1100px;
+
+}
+
+.need-help-section {
+    display: flex;
+    justify-content: center;
+}
+
+.need-help-section-container {
+    width: 1000px;
+    height: 364px;
+    border-radius: 20px;
+    background: #CCCCD5;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.upgrade-heading {
+    color: #3E2678;
+    font-family: Inter;
+    font-size: 41px;
+    font-weight: 700;
+}
+
+.upgrade-para {
+    color: #4D4D6B;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 140%;
+
+}
+
+.talk-to-us-btn {
+    border-radius: 8px;
+    border: 2px solid #EBEBEE;
+    background: #3E2678;
+    width: 180px;
+    height: 48px;
+    padding: 16px 40px;
+    color: #44E6F6;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 30px;
+
+}
+
+.Upgrade-para-container {
+    width: 800px;
+    align-self: center;
+}
+
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-content: center;
+}
+
+.section-3-text {
+    text-align: center;
+    line-height: 0.5;
+    margin-top: 100px;
+}
+
+.section-3-text-heading {
+    color: #3E2678;
+    text-align: center;
+    font-family: Inter;
+    font-size: 41px;
+    font-weight: 700;
+}
+
+.section-3-text-para {
+    color: #3E2678;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.company-logos-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 30px;
+
+
+}
+
+.company-logo {
+    margin-right: 30px;
+}
+
+.google {
+    width: 172px;
+    height: 58px;
+}
+
+.adobe {
+    width: 187px;
+    height: 49px;
+}
+
+.amazon {
+    width: 185px;
+    height: 56px;
+    padding-top: 10px;
+}
+
+.throughtworks {
+    width: 185.5px;
+    height: 29.5px;
+    padding-top: 10px;
+
+}
+
+.dell {
+    width: 183.5px;
+    height: 23.5px;
+    padding-top: 15px;
+
+}
+
+.button-container {
+    text-align: center;
+}
+
+.start-your-free-trail-btn {
+    width: 280px;
+    height: 50px;
+    padding: 16px 40px;
+    border-radius: 10px;
+    border: 2px solid #FFF;
+    background: #3E2678;
+    color: #44E6F6;
+    text-align: center;
+    font-size: 15.5px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+.whats-included-points-container {
+    width: 1070px;
+    height: 699px;
+}
+
+.whats-included-points-section-heading {
+    color: #3E2678;
+    text-align: center;
+    font-family: Inter;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.section-4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.ul-base-plan {
+    list-style-type: none;
+
+}
+
+.ul-base-plan-point {
+    color: #6C6A72;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+hr {
+    opacity: 0.25;
+    background: #B9B6BE;
+}
+
+.talk-to-sales-container {
+    border-radius: 20px;
+    background: #3E2678;
+    width: 1000px;
+    height: 282px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+
+.talk-to-sales-heading {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 41px;
+    font-weight: 700;
+    align-self: center;
+}
+
+.talk-to-sales-btn {
+    width: 240px;
+    height: 56px;
+    border-radius: 10px;
+    border: 2px solid #3E2678;
+    background: #44E6F6;
+    color: #3E2678;
+    text-align: center;
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: 700;
+    align-self: center;
+}
